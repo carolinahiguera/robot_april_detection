@@ -1,0 +1,8 @@
+standalone_tags:
+  [
+    {id: 12, size: 0.173, name: 'apriltag_robot'},
+    # {id: 2, size: 0.173, name: 'Robot2'},
+    # {id: 4, size: 0.173, name: 'Robot4'},
+    # {id: 5, size: 0.173, name: 'Robot5'},
+  ]
+  

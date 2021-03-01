@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find robot_april_detection)/launch/droidcam_april.launch">
+        <arg name="view_gui" value="true" />
+    </include>
+
+    <node pkg="tf2_ros" type="static_transform_publisher" name="world_to_camera" args="0.0 0.00 1.15 1.53 3.14 0.81 world camera" />
+    
+    <node name="frame_transform" pkg="robot_april_detection" type="frame_transform.py" output="screen" >
+    </node>
+
+</launch>
+
+
